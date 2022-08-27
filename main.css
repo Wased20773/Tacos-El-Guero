@@ -13,9 +13,18 @@ html {
     background-color: yellow;
 }
 
-.header_links {
-    font-size: 4vw;
+.header_buttons{
+    font-size: 5vw;
+    font-family:Franklin Gothic large;
+    margin: 3px;
     padding: 0 1em; /*4em makes a circle :) */
+    
+    /* making the button */
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .header_images {
@@ -75,6 +84,8 @@ h2 {
     border: 3px solid black;    
 }
 
+
+
 /* MODIFICATIONS FOR MAP PAGE */
 
 #map {
@@ -90,3 +101,17 @@ h2 {
             }
 */
 
+/*
+                <a href="menu.html">
+                    <button class="header_links" style="background-color: green; color: red; border-radius: 20px">menu</button>
+                </a>
+                <a href="food.html">
+                    <button class="header_links" style="background-color: green; color: red; border-radius: 20px">food</button>
+                </a>
+                <a href="drinks.html">
+                    <button class="header_links" style="background-color: green; color: red; border-radius: 20px">drinks</button>
+                </a>
+                <a href="map.html">
+                    <button class="header_links" style="background-color: green; color: red; border-radius: 20px">map</button>
+                </a>
+*/
