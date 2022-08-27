@@ -28,6 +28,10 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    margin-top: 50px;
+}
+
 .flexbox-container {
     margin: 10px;
     display: flex;
@@ -74,9 +78,7 @@ h1 {
 /* MODIFICATIONS FOR MAP PAGE */
 
 #map {
-    height: 500px;
-    width: 100%;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 /*
             function initMap() {
